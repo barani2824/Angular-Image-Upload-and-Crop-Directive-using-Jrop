@@ -1,0 +1,13 @@
+<div class="container" data-ng-controller="CropimageCtrl">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <button class="btn btn-success" data-ng-click="imageFinish()"><i class="fa fa-check-square"></i> Finish</button>
+            <button class="btn btn-info" data-ng-click="toggleCanvas()"><i class="fa fa-eye"></i> Show Canvas</button>
+        </div>
+    </div>
+    <div class="row row-vertical-margin">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div id="crop-resize-tool" data-cropimage="true" data-aspect-ratio="0" data-min-width="300" data-min-height="300" data-onload="jcropLoadHandler()" data-image-error="imageError()"></div>
+        </div>
+    </div>
+</div>

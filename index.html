@@ -1,0 +1,40 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="bower_components/jcrop/css/jquery.Jcrop.min.css" />
+</head>
+<body ng-app="imageCropPOC">
+    <div class="container">
+        <div class="row">
+            <div class="jumbotron">
+                <h2>Image Upload</h2>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="jumbotroncol-lg-12 col-md-12 col-sm-12">
+                <div ng-view=""></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="bower_components/jcrop/js/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/jcrop/js/jquery.Jcrop.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/directives/imageUpload.js"></script>
+    <script src="scripts/controllers/cropImage.js"></script>
+    <script src="scripts/directives/cropimage.js"></script>
+    <script src="scripts/controllers/finish.js"></script>
+
+</body>
+</html>
